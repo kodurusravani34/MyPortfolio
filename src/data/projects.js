@@ -25,6 +25,16 @@ import r6 from '../assets/resume-builder/r6.png';
 import r7 from '../assets/resume-builder/r7.png';
 import r8 from '../assets/resume-builder/r8.png';
 
+// EM-Blogs Images
+import em1 from '../assets/em-blogs/em1.png';
+import em2 from '../assets/em-blogs/em2.png';
+import em3 from '../assets/em-blogs/em3.png';
+import em4 from '../assets/em-blogs/em4.png';
+import em5 from '../assets/em-blogs/em5.png';
+import em6 from '../assets/em-blogs/em6.png';
+import em7 from '../assets/em-blogs/em7.png';
+import em8 from '../assets/em-blogs/em8.png';
+
 export const projects = [
     {
         id: "eduai",
@@ -81,24 +91,24 @@ export const projects = [
         screenshots: [r1, r2, r3, r4, r5, r6, r7, r8]
     },
     {
-        id: "el-memoir",
-        title: "El-Memoir",
-        description: "A beautiful digital journaling platform for capturing life's moments and tracking personal growth.",
-        problemStatement: "Standard blogging platforms are often bloated or require complex setup, while personal journals lack the organization and searchability needed for long-term reflection.",
-        fullDescription: "El-Memoir is a lightweight, high-performance personal blog inspired by Quora's content-first philosophy. Built with pure vanilla JavaScript, it offers a distractions-free writing and reading experience. It features dynamic category filtering, a seamless dark/light theme engine, and a modal-based reading system designed for maximum readability across all devices.",
+        id: "em-blogs",
+        title: "EM Blogs",
+        description: "A premium editorial publishing platform handcrafted for personal storytelling and thoughtful insights.",
+        problemStatement: "Standard blogging platforms often feel cluttered or impersonal. Writers need a cinematic, high-end space that lets their words breathe while maintaining professional-grade editorial aesthetics.",
+        fullDescription: "EM Blogs is a premium digital space inspired by the 'Journal' aesthetic of platforms like Medium.com. It features an immersive editorial design with generous whitespace, cinematic article cards, and boutique typography. Built using the MERN stack with Tailwind CSS v4, it offers a distractions-free writing and reading experience, complete with dynamic discovery, personalized libraries, and secure authentication.",
         features: [
-            "Minimalist Quora UI: Clean, typography-focused design that prioritizes readability over clutter.",
-            "Lightning Fast Performance: Built with vanilla JS for near-zero load times and responsive interactions.",
-            "Category & Search: Effortlessly organize and find content in Frontend, Backend, Mobile, and DevOps.",
-            "Dual-Theme Engine: One-tap toggle between elegant light and dark modes with persistent memory.",
-            "Modal Reading Experience: Focus on content with a distraction-free full-screen reading overlay."
+            "Immersive Editorial Design: Boutique typography and spacious layouts for a premium reading experience.",
+            "Cinematic Article Cards: Large cover images with hover animations and high-contrast editorial styling.",
+            "Dynamic Discovery: Sticky category navigation for exploring Design, Technology, Philosophy, and more.",
+            "Boutique Journals: Personalized profile pages that act as a curated portfolio of writings.",
+            "Personalized Library: Dedicated bookmarking system for saving insights for later reading.",
+            "Secure Authentication: JWT-protected accounts with dedicated role-based access for Administrators.",
+            "Responsive UI: Handcrafted experience built with Tailwind CSS v4 for all devices."
         ],
-        techStack: ["HTML5", "CSS3", "JavaScript", "Node.js", "MongoDB"],
-        liveDemo: "https://kodurusravani34.github.io/El-Memoir/",
-        github: "https://github.com/kodurusravani34/El-Memoir",
-        screenshots: [
-            "https://images.unsplash.com/photo-1517842645767-c639042777db?q=80&w=1200"
-        ]
+        techStack: ["React 19", "Vite", "Tailwind CSS v4", "Node.js", "Express", "MongoDB", "JWT"],
+        liveDemo: "https://em-blogs.vercel.app/",
+        github: "https://github.com/kodurusravani34/EM-Blogs",
+        screenshots: [em1, em2, em3, em4, em5, em6, em7, em8]
     },
     {
         id: "n8n-gmail",

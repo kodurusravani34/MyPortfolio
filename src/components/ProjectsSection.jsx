@@ -11,12 +11,12 @@ const ProjectCard = ({ project }) => {
             whileHover={{ y: -10 }}
             transition={{ duration: 0.3, ease: "easeOut" }}
             onClick={() => navigate(`/project/${project.id}`)}
-            className="flex-shrink-0 w-[350px] md:w-[450px] bg-white rounded-2xl p-8 shadow-[0_4px_30px_rgba(0,0,0,0.05)] border border-gray-50 cursor-pointer group"
+            className="flex-shrink-0 w-[350px] md:w-[450px] bg-white rounded-2xl p-5 shadow-[0_4px_30px_rgba(0,0,0,0.05)] border border-gray-50 cursor-pointer group"
         >
-            <h3 className="text-2xl font-bold text-[#111111] mb-4 group-hover:text-[#2563EB] transition-colors uppercase tracking-tight">
+            <h3 className="text-xl font-bold text-[#111111] mb-3 group-hover:text-[#2563EB] transition-colors uppercase tracking-tight">
                 {project.title}
             </h3>
-            <p className="text-[#111111]/60 font-light mb-8 leading-relaxed h-20 overflow-hidden line-clamp-3">
+            <p className="text-[#111111]/60 font-light mb-4 leading-relaxed h-12 overflow-hidden line-clamp-2 text-sm">
                 {project.description}
             </p>
 
